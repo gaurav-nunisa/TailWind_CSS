@@ -4,6 +4,8 @@ import { Card } from "./Components/Card";
 import { NavBar } from "./Components/NavBar";
 import { ImageSection } from "./Components/ImageSection";
 import { DesignCards } from "./Components/DesignCards";
+import { MiniCard } from "./Components/MiniCards";
+import { Footer } from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <NavBar/>
         <ImageSection/>
         <DesignCards/>
+        <MiniCard/>
+        <Footer/>
       </div>
     </>
   );
