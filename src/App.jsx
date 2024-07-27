@@ -3,6 +3,7 @@ import { SecondCard } from "./Components/SecondCard";
 import { Card } from "./Components/Card";
 import { NavBar } from "./Components/NavBar";
 import { ImageSection } from "./Components/ImageSection";
+import { DesignCards } from "./Components/DesignCards";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* </div> */}
         <NavBar/>
         <ImageSection/>
+        <DesignCards/>
       </div>
     </>
   );
